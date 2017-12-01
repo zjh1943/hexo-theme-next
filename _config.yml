@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "知明所以, 技术管理, 读书, 人生, iOS, react, reactjs, cocos2d-x, 创业"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -196,7 +196,7 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
+  wordcount: true
   min2read: false
   separated_meta: true
 
