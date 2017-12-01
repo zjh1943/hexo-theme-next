@@ -305,8 +305,8 @@ baidu_analytics: 8531b55b0d37e2ac5959e672266bdbbb
 
 # Disqus
 disqus:
-  enable: false
-  shortname: jhzhu
+  enable: true
+  shortname: bookbook-in
   count: true
 
 # Hypercomments
@@ -363,7 +363,7 @@ livere_uid: MTAyMC8yOTgyNS82Mzkx
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
+  ua_enable: false
   admin_enable: false
   user_id: 0
   #admin_nickname: Author
@@ -457,26 +457,15 @@ calendar:
   singleEvents: true
   maxResults: 250
 
-# Algolia Search
-algolia_search:
-  enable: true
-  hits:
-    per_page: 10
-  labels:
-    input_placeholder: Search for Posts
-    hits_empty: "We didn't find any results for the search: ${query}"
-    hits_stats: "${hits} results found in ${time} ms"
-
-
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
-  trigger: auto,
+  # trigger: manual
   # show top n results per article, show all results by setting to -1
-  top_n_per_article: 1
+  # top_n_per_article: -1
 
 
 # ---------------------------------------------------------------
